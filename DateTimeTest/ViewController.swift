@@ -40,6 +40,8 @@ class ViewController: UIViewController {
         view.endEditing(true)
         
         DispatchQueue.global().async {
+            // let now = Temporal.DateTime.now()
+            // above is how to get current time
             let dateTime = Temporal.DateTime(date)
             let item = DateTimeTest(dateTime: dateTime)
             
