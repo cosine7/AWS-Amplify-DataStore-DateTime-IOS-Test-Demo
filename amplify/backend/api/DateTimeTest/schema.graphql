@@ -1,0 +1,4 @@
+type DateTimeTest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  dateTime: AWSDateTime
+}
